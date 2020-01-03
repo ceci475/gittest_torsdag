@@ -21,96 +21,10 @@ header {
     width: 100vw;
 }
 
-header nav {
-    display: flex;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2rem;
-    margin-top: 2vw;
-    display: inline-block;
-}
-
-nav a {
-    color: black;
-    font-weight: 200;
-    letter-spacing: 0.5px;
-    margin-right: 1vw;
-}
-
-
-nav a:hover {
-    text-decoration: none;
-    color: #4923f4;
-}
-
-nav a.active {
-    color: #4923f4;
-}
-
-
-footer p {
-    font-family: Questrial;
-    Font-size: 0.8rem;
-    color: #000000;
-    border-top-color: #4923f4;
-    text-align: center;
-    padding: 2vw;
-}
-
-footer p {
-    border-top: solid 1px #4923f4;
-    margin-top: 5vw;
-}
-
-
-#sidebar .socialmedia {
-    margin-left: 93.5vw;
-    position: fixed;
-    margin-top: 25vw;
-}
-
-
-.facebook:hover {
-    opacity: 0.3;
-}
-
-.instagram:hover {
-    opacity: 0.3;
-}
-
-.email:hover {
-    opacity: 0.3;
-}
-
-.facebook {
-    width: 20px;
-    height: 20px;
-}
-
-.instagram {
-    width: 17px;
-    height: 17px;
-}
-
-.email {
-    width: 17px;
-    height: 17px;
-}
-
-#sidebar .portfolio p {
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2rem;
-    color: black;
-    letter-spacing: 0.5px;
-    transform: rotate(-90deg);
-    position: fixed;
-    padding: 2vw;
-    margin-top: 26vw;
-}
-
-
 /* Grundlæggende indstillinger slut */
 
-/*Forside*/
+
+/* Forside */
 
 #forside {
     background-image: url('baggrund.jpg');
@@ -125,9 +39,9 @@ footer p {
     font-family: Questrial;
     color: #4923f4;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: 0.8px;
-    margin-top: 25vw;
+    margin-top: 70vw;
     text-align: center;
 }
 
@@ -151,94 +65,151 @@ a:hover {
     color: black;
 }
 
-/*forside slut*/
+/* Forside slut */
 
-/*info*/
 
-#info .tekst {
+header nav {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 12vw;
-    margin-right: 18vw;
-}
-
-
-#info .col_narrow {
-    flex-basis: 150px;
-    flex-grow: 1;
-    margin-top: 12vw;
-
-}
-
-#info .col_wide {
-    flex-basis: 650px;
-    flex-grow: 2;
-    margin-top: 6vw;
-    padding: 4vw;
-}
-
-#info h1 {
-    font-family: Questrial;
-    color: #4923f4;
-    font-weight: 600;
-    font-size: 3.5rem;
-    letter-spacing: 0.8px;
-}
-
-#info h2 {
-    font-family: Questrial;
-    color: #4923f4;
-    font-size: 1.5rem;
-    letter-spacing: 0.2px;
-    line-height: 11;
-}
-
-#info p {
-    font-size: 1.2rem;
     font-family: 'Questrial', sans-serif;
-    letter-spacing: 0.2px;
-    line-height: 35px;
+    font-size: 1rem;
+    margin: 5vw 2vw 4vw 2vw;
+    display: inline-block;
+}
+
+nav a {
+    color: black;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin-right: 1vw;
+}
+
+
+nav a:hover {
+    text-decoration: none;
     color: #4923f4;
-    width: 48vw;
 }
 
-/*info slut*/
-
-/*projekter*/
-
-#projekter {
-    margin-left: 10vw;
-    margin-right: 10vw;
+nav a.active {
+    color: #4923f4;
 }
 
-#projekter .raekke {
+
+footer p {
+    font-family: Questrial;
+    Font-size: 0.6rem;
+    color: #000000;
+    border-top-color: #4923f4;
+    text-align: center;
+    padding: 2vw;
+}
+
+footer p {
+    border-top: solid 1px #4923f4;
     margin-top: 5vw;
 }
 
 
-#projekter .kolonne {
-    float: left;
-    width: 33.3%;
-    padding: 1.2vw;
+#sidebar .socialmedia {
+    margin-left: 90vw;
+    position: fixed;
+    margin-top: 72vw;
 }
 
-.left,
-.right {
-    width: 25%;
+
+.facebook:hover {
+    opacity: 0.3;
 }
 
-.middle {
-    width: 50%;
+.instagram:hover {
+    opacity: 0.3;
 }
 
-.raekke:after {
-    content: "";
-    display: table;
-    clear: both;
+.email:hover {
+    opacity: 0.3;
+}
+
+.facebook {
+    width: 15px;
+    height: 15px;
+}
+
+.instagram {
+    width: 13px;
+    height: 13px;
+}
+
+.email {
+    width: 13px;
+    height: 13px;
+}
+
+#sidebar .portfolio p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 0.5px;
+    transform: rotate(-90deg);
+    position: fixed;
+    margin-top: 81vw;
+}
+
+
+
+/* Info */
+
+#table1 h1 {
+    font-family: Questrial;
+    color: #4923f4;
+    font-weight: 600;
+    font-size: 3.2rem;
+    letter-spacing: 0.8px;
+    margin-bottom: 0;
+}
+
+#table1 h2 {
+    font-family: Questrial;
+    color: #4923f4;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: text-top;
+    text-align: left;
+}
+
+#table1 p {
+    font-size: 1rem;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    color: #4923f4;
+    width: 48vw;
+    font-weight: 500;
+}
+
+#table1 {
+    border-collapse: separate;
+    margin-left: 5vw;
+    border-spacing: 30px;
+}
+
+
+/* Info slut */
+
+
+/* Projekter */
+
+#projekter {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
 }
 
 #projekter p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Questrial', sans-serif;
     letter-spacing: 0.2px;
     line-height: 35px;
@@ -246,92 +217,11 @@ a:hover {
     text-align: center;
 }
 
-/*projekter slut*/
-
-
-
-/*underside*/
-
-#underside {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-top: 5vw;
-}
-
-
-#underside .col_narrow {
-    flex-basis: 200px;
-    flex-grow: 1;
-    padding-left: 1vw;
-}
-
-#underside .col_wide {
-    flex-basis: 560px;
-    flex-grow: 2;
-    padding-right: 3vw;
-
-}
-
-#underside h1 {
-    font-family: Questrial;
-    color: #4923f4;
-    font-size: 1.6rem;
-    letter-spacing: 0.8px;
-}
-
-#underside h2 {
-    font-family: Questrial;
-    color: #4923f4;
-    font-size: 1.3rem;
-    letter-spacing: 0.2px;
-}
-
-#underside p {
-    font-size: 1.2rem;
-    font-family: 'Questrial', sans-serif;
-    letter-spacing: 0.2px;
-    line-height: 30px;
-    color: #3f3f3f;
-}
-
-.cross {
-    margin-top: 70px;
-    margin-left: 84vw;
-    width: 20px;
-    height: 20px;
-}
-
-
-
-#underside .colnarrow_tekst {
-    flex-basis: 200px;
-    flex-grow: 1;
-    margin-top: 70px;
-    padding-left: 2.5vw;
-
-}
-
-#underside .colwide_tekst {
-    flex-basis: 500px;
-    flex-grow: 2;
-    margin-top: 70px;
-
-}
-
-
-/*underside slut*/
-
-
-
-
-
-/*hover*/
-
 .kolonne {
     position: relative;
-    width: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .image {
@@ -364,25 +254,856 @@ a:hover {
 #projekter .tekst {
     color: #4923f4;
     font-family: Questrial;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 16px 32px;
 }
 
-/*hover billede slut*/
+/* Projekter slut */
 
 
+/* Underside */
 
-/*mediaquery*/
-
-@media only screen and (min-width:900px) {}
-
-
-
-@media screen and (max-width: 600px) {
-
-    .kolonne .right,
-    .kolonne .middle,
-    .kolonne .left {
-        width: 100%;
-    }
+#underside {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw 15vw 10vw 15vw;
 }
+
+#underside h1 {
+    font-family: Questrial;
+    color: #4923f4;
+    font-size: 1.4rem;
+    letter-spacing: 0.8px;
+}
+
+#underside h2 {
+    font-family: Questrial;
+    color: #4923f4;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+}
+
+#underside p {
+    font-size: 1rem;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    color: #3f3f3f;
+}
+
+.cross {
+    margin-top: 41px;
+    margin-left: 90vw;
+    width: 15px;
+    height: 15px;
+}
+
+#underside a {
+    color: #3f3f3f;
+}
+
+#underside a:hover {
+    color: #4923f4;
+}
+
+/* Underside slut */
+
+/* Button */
+#underside .col_wide {
+    position: relative;
+}
+
+.col_wide .display-left {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.col_wide .display-left:hover {
+    color: blue;
+}
+
+.col_wide .display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+    border: none;
+}
+
+.col_wide .display-right:hover {
+    color: blue;
+}
+
+/* Button slut*/
+
+
+
+/* Mediaquery ipad */
+
+@media screen and (min-width: 600px) {
+
+    /* header og footer */
+
+    header nav {
+        display: flex;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.2rem;
+        margin-top: 4vw;
+        display: inline-block;
+    }
+
+    nav a {
+        color: black;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+        margin-right: 1vw;
+    }
+
+
+    nav a:hover {
+        text-decoration: none;
+        color: #4923f4;
+    }
+
+    nav a.active {
+        color: #4923f4;
+    }
+
+
+    footer p {
+        font-family: Questrial;
+        Font-size: 0.8rem;
+        color: #000000;
+        border-top-color: #4923f4;
+        text-align: center;
+        padding: 2vw;
+    }
+
+    footer p {
+        border-top: solid 1px #4923f4;
+        margin-top: 5vw;
+    }
+
+    /* header og footer slut */
+
+    /* sidebar */
+
+    #sidebar .socialmedia {
+        margin-left: 93.5vw;
+        position: fixed;
+        margin-top: 43vw;
+    }
+
+
+    .facebook:hover {
+        opacity: 0.3;
+    }
+
+    .instagram:hover {
+        opacity: 0.3;
+    }
+
+    .email:hover {
+        opacity: 0.3;
+    }
+
+    .facebook {
+        width: 18px;
+        height: 18px;
+    }
+
+    .instagram {
+        width: 15px;
+        height: 15px;
+    }
+
+    .email {
+        width: 15px;
+        height: 15px;
+    }
+
+
+    #sidebar .portfolio p {
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.2rem;
+        color: black;
+        letter-spacing: 0.5px;
+        transform: rotate(-90deg);
+        position: fixed;
+        padding: 2vw;
+        margin-top: 46vw;
+    }
+
+    /* sidebar slut */
+
+    /* Forside */
+    #forside {
+        background-image: url('baggrund.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    #forside h1 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-weight: 600;
+        font-size: 1.5rem;
+        letter-spacing: 0.8px;
+        margin-top: 60vw;
+        text-align: center;
+    }
+
+    #forside h2 {
+        font-family: Questrial;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 1rem;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+
+    #forside a {
+        text-decoration: none;
+        color: #4923f4;
+    }
+
+    #forside a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Forside slut */
+
+
+
+    /* Info */
+
+
+
+    #table1 h1 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-weight: 600;
+        font-size: 3.5rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 0;
+    }
+
+    #table1 h2 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-size: 1.4rem;
+        letter-spacing: 0.2px;
+    }
+
+    td {
+        display: table-cell;
+        vertical-align: text-top;
+        text-align: left;
+    }
+
+    #table1 p {
+        font-size: 1.2rem;
+        font-family: 'Questrial', sans-serif;
+        letter-spacing: 0.2px;
+        line-height: 33px;
+        color: #4923f4;
+        font-weight: 500;
+    }
+
+    #table1 {
+        border-collapse: separate;
+        margin-left: 10vw;
+        border-spacing: 30px;
+    }
+
+    /* Info slut */
+
+
+    /* Projekter */
+
+    #projekter {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    #projekter .kolonne {
+        float: left;
+        padding: 1.2vw;
+        padding-bottom: 0vw;
+        padding-top: 0vw;
+        margin-bottom: 0vw;
+    }
+
+    #projekter .raekke {
+        padding: 0vw;
+    }
+
+    .left,
+    .right {
+        width: 25%;
+    }
+
+    .middle {
+        width: 50%;
+    }
+
+    .raekke:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #projekter p {
+        font-size: 1.5rem;
+        font-family: 'Questrial', sans-serif;
+        letter-spacing: 0.2px;
+        line-height: 35px;
+        color: #4923f4;
+        text-align: center;
+    }
+
+    /* Projekter slut */
+
+    /* Hover */
+
+    .kolonne {
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kolonne:hover .image {
+        opacity: 0.3;
+    }
+
+    .kolonne:hover .middle {
+        opacity: 1;
+    }
+
+    #projekter .tekst {
+        color: #4923f4;
+        font-family: Questrial;
+        font-size: 1.5rem;
+        padding: 16px 32px;
+    }
+
+    /* Hover billede slut */
+
+    /* Underside */
+
+    #underside {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 5vw;
+    }
+
+
+    #underside h1 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-size: 1.6rem;
+        letter-spacing: 0.8px;
+    }
+
+    #underside h2 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-size: 1.3rem;
+        letter-spacing: 0.2px;
+    }
+
+    #underside p {
+        font-size: 1.2rem;
+        font-family: 'Questrial', sans-serif;
+        letter-spacing: 0.2px;
+        line-height: 33px;
+        color: #3f3f3f;
+    }
+
+    .cross {
+        margin-top: 70px;
+        margin-left: 90vw;
+        width: 20px;
+        height: 20px;
+    }
+
+    #underside a {
+        color: #3f3f3f;
+    }
+
+    #underside a:hover {
+        color: #4923f4;
+    }
+
+    /* Underside slut */
+
+    /* Button */
+    #underside .col_wide {
+        position: relative;
+    }
+
+    .col_wide .display-left {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .col_wide .display-left:hover {
+        color: blue;
+    }
+
+    .col_wide .display-right {
+        position: absolute;
+        top: 50%;
+        right: 1%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .col_wide .display-right:hover {
+        color: blue;
+    }
+
+    /* Button slut*/
+
+}
+
+/* Mediaquery ipad slut */
+
+
+
+
+
+/* Mediaquery desktop */
+
+@media only screen and (min-width:900px) {
+
+    /* header og footer */
+
+    header nav {
+        display: flex;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.2rem;
+        margin-top: 2vw;
+        display: inline-block;
+    }
+
+    nav a {
+        color: black;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+        margin-right: 1vw;
+    }
+
+
+    nav a:hover {
+        text-decoration: none;
+        color: #4923f4;
+    }
+
+    nav a.active {
+        color: #4923f4;
+    }
+
+
+    footer p {
+        font-family: Questrial;
+        Font-size: 0.8rem;
+        color: #000000;
+        border-top-color: #4923f4;
+        text-align: center;
+        padding: 2vw;
+    }
+
+    footer p {
+        border-top: solid 1px #4923f4;
+        margin-top: 5vw;
+    }
+
+    /* header og footer slut */
+
+    /* sidebar */
+
+    #sidebar .socialmedia {
+        margin-left: 93.5vw;
+        position: fixed;
+        margin-top: 20vw;
+    }
+
+
+    .facebook:hover {
+        opacity: 0.3;
+    }
+
+    .instagram:hover {
+        opacity: 0.3;
+    }
+
+    .email:hover {
+        opacity: 0.3;
+    }
+
+    .facebook {
+        width: 20px;
+        height: 20px;
+    }
+
+    .instagram {
+        width: 17px;
+        height: 17px;
+    }
+
+    .email {
+        width: 17px;
+        height: 17px;
+    }
+
+
+    #sidebar .portfolio p {
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.2rem;
+        color: black;
+        letter-spacing: 0.5px;
+        transform: rotate(-90deg);
+        position: fixed;
+        padding: 2vw;
+        margin-top: 21vw;
+    }
+
+    /* sidebar slut */
+
+    /* Forside */
+    #forside {
+        background-image: url('baggrund.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    #forside h1 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-weight: 600;
+        font-size: 1.5rem;
+        letter-spacing: 0.8px;
+        margin-top: 25vw;
+        text-align: center;
+    }
+
+    #forside h2 {
+        font-family: Questrial;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 1rem;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+
+    #forside a {
+        text-decoration: none;
+        color: #4923f4;
+    }
+
+    #forside a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Forside slut */
+
+
+
+    /* Info */
+
+    #table1 h1 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-weight: 600;
+        font-size: 3.5rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 0;
+    }
+
+    #table1 h2 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-size: 1.4rem;
+        letter-spacing: 0.2px;
+    }
+
+    td {
+        display: table-cell;
+        vertical-align: text-top;
+        text-align: left;
+    }
+
+    #table1 p {
+        font-size: 1.2rem;
+        font-family: 'Questrial', sans-serif;
+        letter-spacing: 0.2px;
+        line-height: 33px;
+        color: #4923f4;
+        font-weight: 500;
+    }
+
+    #table1 {
+        border-collapse: separate;
+        margin-left: 10vw;
+        border-spacing: 60px;
+    }
+
+    /* Info slut */
+
+
+    /* Projekter */
+
+    #projekter {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    #projekter .raekke {}
+
+
+    #projekter .kolonne {
+        float: left;
+        width: 33.3%;
+        padding: 1vw;
+        padding-bottom: 0vw;
+        padding-top: 0vw;
+    }
+
+    .left,
+    .right {
+        width: 25%;
+    }
+
+    .middle {
+        width: 50%;
+    }
+
+    .raekke:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #projekter p {
+        font-size: 1.5rem;
+        font-family: 'Questrial', sans-serif;
+        letter-spacing: 0.2px;
+        line-height: 35px;
+        color: #4923f4;
+        text-align: center;
+    }
+
+    /* Projekter slut */
+
+    /* Hover */
+
+    .kolonne {
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+
+    }
+
+    .middle {
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kolonne:hover .image {
+        opacity: 0.3;
+    }
+
+    .kolonne:hover .middle {
+        opacity: 1;
+
+    }
+
+    #projekter .tekst {
+        color: #4923f4;
+        font-family: Questrial;
+        font-size: 1.5rem;
+        padding: 16px 32px;
+    }
+
+    /* Hover billede slut */
+
+    /* Underside */
+
+    #underside {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 5vw;
+    }
+
+
+    #underside .col_narrow {
+        flex-basis: 200px;
+        flex-grow: 1;
+        padding-left: 1vw;
+    }
+
+    #underside .col_wide {
+        flex-basis: 560px;
+        flex-grow: 2;
+        padding-right: 3vw;
+    }
+
+    #underside h1 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-size: 1.6rem;
+        letter-spacing: 0.8px;
+    }
+
+    #underside h2 {
+        font-family: Questrial;
+        color: #4923f4;
+        font-size: 1.3rem;
+        letter-spacing: 0.2px;
+    }
+
+    #underside p {
+        font-size: 1.2rem;
+        font-family: 'Questrial', sans-serif;
+        letter-spacing: 0.2px;
+        line-height: 33px;
+        color: #3f3f3f;
+    }
+
+    .cross {
+        margin-top: 70px;
+        margin-left: 84vw;
+        width: 20px;
+        height: 20px;
+    }
+
+    #underside .colnarrow_tekst {
+        flex-basis: 200px;
+        flex-grow: 1;
+        margin-top: 70px;
+        padding-left: 5.3vw;
+    }
+
+    #underside .colwide_tekst {
+        flex-basis: 400px;
+        flex-grow: 2;
+        margin-top: 70px;
+    }
+
+    #underside a {
+        color: #3f3f3f;
+    }
+
+    #underside a:hover {
+        color: #4923f4;
+    }
+
+    /* Underside slut */
+
+    /* Button */
+    #underside .col_wide {
+        position: relative;
+        width: 50%;
+    }
+
+    .col_wide .display-left {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .col_wide .display-left:hover {
+        color: blue;
+    }
+
+    .col_wide .display-right {
+        position: absolute;
+        top: 50%;
+        right: 7.5%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        border: none;
+    }
+
+    .col_wide .display-right:hover {
+        color: blue;
+    }
+
+    /* Button slut*/
+
+    /* Mediaquery desktop slut */
