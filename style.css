@@ -40,7 +40,6 @@ header {
     color: #4923f4;
     font-weight: 600;
     font-size: 1.8rem;
-    letter-spacing: 0.8px;
     margin-top: 70vw;
     text-align: center;
 }
@@ -52,6 +51,7 @@ header {
     font-weight: 100;
     font-size: 1rem;
     letter-spacing: 0.2px;
+
     text-align: center;
 }
 
@@ -151,6 +151,7 @@ footer p {
     transform: rotate(-90deg);
     position: fixed;
     margin-top: 81vw;
+    font-weight: 200;
 }
 
 
@@ -289,6 +290,7 @@ td {
     letter-spacing: 0.2px;
     line-height: 25px;
     color: #3f3f3f;
+    font-weight: 200;
 }
 
 .cross {
@@ -442,6 +444,7 @@ td {
         position: fixed;
         padding: 2vw;
         margin-top: 46vw;
+        font-weight: 200;
     }
 
     /* sidebar slut */
@@ -653,6 +656,7 @@ td {
         letter-spacing: 0.2px;
         line-height: 33px;
         color: #3f3f3f;
+        font-weight: 200;
     }
 
     .cross {
@@ -711,7 +715,70 @@ td {
 
     /* Button slut*/
 
+
+
+    .typewriter h1 {
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        border-right: solid #4923f4;
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 15em;
+        /* Adjust as needed */
+        animation:
+            typing 4s steps(44) 1s 1 normal both,
+            blinking .75s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 22em;
+        }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blinking {
+
+        from,
+        to {
+            border-color: transparent
+        }
+
+        50% {
+            border-color: #4923f4;
+        }
+    }
+
+    .fadein {
+        opacity: 0;
+        animation-name: fadein;
+        animation-delay: 5.5s;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
 }
+
+
 
 /* Mediaquery ipad slut */
 
@@ -813,6 +880,7 @@ td {
         position: fixed;
         padding: 2vw;
         margin-top: 21vw;
+        font-weight: 200;
     }
 
     /* sidebar slut */
@@ -1035,6 +1103,7 @@ td {
         letter-spacing: 0.2px;
         line-height: 33px;
         color: #3f3f3f;
+        font-weight: 200;
     }
 
     .cross {
@@ -1106,4 +1175,67 @@ td {
 
     /* Button slut*/
 
-    /* Mediaquery desktop slut */
+
+
+    .typewriter h1 {
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        border-right: solid #4923f4;
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 15em;
+        /* Adjust as needed */
+        animation:
+            typing 4s steps(44) 1s 1 normal both,
+            blinking .75s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 22em;
+        }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blinking {
+
+        from,
+        to {
+            border-color: transparent
+        }
+
+        50% {
+            border-color: #4923f4;
+        }
+    }
+
+    .fadein {
+        opacity: 0;
+        animation-name: fadein;
+        animation-delay: 5.5s;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+}
+
+/* Mediaquery desktop slut */
