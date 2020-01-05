@@ -275,6 +275,7 @@ td {
     color: #4923f4;
     font-size: 1.4rem;
     letter-spacing: 0.8px;
+    margin-top: 7vw;
 }
 
 #underside h2 {
@@ -641,6 +642,7 @@ td {
         color: #4923f4;
         font-size: 1.6rem;
         letter-spacing: 0.8px;
+        margin-top: 7vw;
     }
 
     #underside h2 {
@@ -715,25 +717,24 @@ td {
 
     /* Button slut*/
 
+    /* Forside effekt */
 
+.typewriter h1 {
 
-    .typewriter h1 {
+        /* Sikrer at teksten ikke er vist indtil animationen starter */
         overflow: hidden;
-        /* Ensures the content is not revealed until the animation */
+        /* Cursoren */
         border-right: solid #4923f4;
-        /* The typwriter cursor */
         white-space: nowrap;
-        /* Keeps the content on a single line */
+        /* Lader teksten forblive på en linje */
         margin: 0 auto;
-        /* Gives that scrolling effect as the typing happens */
+        /* Giver scrolling effekten når tastningen sker */
         letter-spacing: 15em;
-        /* Adjust as needed */
-        animation:
-            typing 4s steps(44) 1s 1 normal both,
-            blinking .75s step-end infinite;
+        /* Justering */
+        animation: typing 4s steps(44) 1s 1 normal both, blinking .75s step-end infinite;
     }
 
-    /* The typing effect */
+    /* Tast effekten */
     @keyframes typing {
         from {
             width: 0
@@ -744,7 +745,7 @@ td {
         }
     }
 
-    /* The typewriter cursor effect */
+    /* Cursor effekten */
     @keyframes blinking {
 
         from,
@@ -756,6 +757,7 @@ td {
             border-color: #4923f4;
         }
     }
+
 
     .fadein {
         opacity: 0;
@@ -778,7 +780,7 @@ td {
 
 }
 
-
+/* Forside slut */
 
 /* Mediaquery ipad slut */
 
@@ -1088,6 +1090,7 @@ td {
         color: #4923f4;
         font-size: 1.6rem;
         letter-spacing: 0.8px;
+        margin-top: 2vw;
     }
 
     #underside h2 {
@@ -1175,25 +1178,24 @@ td {
 
     /* Button slut*/
 
-
+/* Forside effekt */
 
     .typewriter h1 {
+
+        /* Sikrer at teksten ikke er vist indtil animationen starter */
         overflow: hidden;
-        /* Ensures the content is not revealed until the animation */
+        /* Cursoren */
         border-right: solid #4923f4;
-        /* The typwriter cursor */
         white-space: nowrap;
-        /* Keeps the content on a single line */
+        /* Lader teksten forblive på en linje */
         margin: 0 auto;
-        /* Gives that scrolling effect as the typing happens */
+        /* Giver scrolling effekten når tastningen sker */
         letter-spacing: 15em;
-        /* Adjust as needed */
-        animation:
-            typing 4s steps(44) 1s 1 normal both,
-            blinking .75s step-end infinite;
+        /* Justering */
+        animation: typing 4s steps(44) 1s 1 normal both, blinking .75s step-end infinite;
     }
 
-    /* The typing effect */
+    /* Tast effekten */
     @keyframes typing {
         from {
             width: 0
@@ -1204,7 +1206,7 @@ td {
         }
     }
 
-    /* The typewriter cursor effect */
+    /* Cursor effekten */
     @keyframes blinking {
 
         from,
@@ -1236,6 +1238,7 @@ td {
         }
     }
 
+    /* Forside effekt slut */
 }
 
 /* Mediaquery desktop slut */
