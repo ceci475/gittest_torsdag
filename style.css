@@ -719,7 +719,7 @@ td {
 
     /* Forside effekt */
 
-.typewriter h1 {
+    .typewriter h1 {
 
         /* Sikrer at teksten ikke er vist indtil animationen starter */
         overflow: hidden;
@@ -762,8 +762,8 @@ td {
     .fadein {
         opacity: 0;
         animation-name: fadein;
-        animation-delay: 5.5s;
-        animation-duration: 1s;
+        animation-delay: 3s;
+        animation-duration: 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -790,7 +790,7 @@ td {
 
 /* Mediaquery desktop */
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:1100px) {
 
     /* header og footer */
 
@@ -982,7 +982,6 @@ td {
 
     #projekter .raekke {}
 
-
     #projekter .kolonne {
         float: left;
         width: 33.3%;
@@ -1170,6 +1169,7 @@ td {
         color: white;
         font-size: 20px;
         border: none;
+        cursor: pointer;
     }
 
     .col_wide .display-right:hover {
@@ -1178,7 +1178,7 @@ td {
 
     /* Button slut*/
 
-/* Forside effekt */
+    /* Forside effekt */
 
     .typewriter h1 {
 
@@ -1222,8 +1222,8 @@ td {
     .fadein {
         opacity: 0;
         animation-name: fadein;
-        animation-delay: 5.5s;
-        animation-duration: 1s;
+        animation-delay: 3s;
+        animation-duration: 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }

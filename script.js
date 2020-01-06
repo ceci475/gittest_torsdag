@@ -1,3 +1,22 @@
+/* kalder animation når siden loades */
+
+window.addEventListener("load", typeWriter);
+
+function typeWriter() {
+    console.log("typewriter");
+    document.querySelector("#forside").classList.add("typewriter");
+    document.querySelector("#enter").classList.add("fadein");
+
+    document.querySelector("#typewriter").addEventListener("animationend", fadeIn);
+}
+
+function fadeIn() {
+    console.log("fadein");
+    document.querySelector("#enter").textContent = "Enter";
+}
+
+
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
