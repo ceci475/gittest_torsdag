@@ -309,6 +309,10 @@ td {
     color: #4923f4;
 }
 
+#underside .colwide_tekst {
+    margin-bottom: 16px;
+}
+
 /* Underside slut */
 
 /* Button */
@@ -674,6 +678,11 @@ td {
 
     #underside a:hover {
         color: #4923f4;
+    }
+
+
+    #underside .colwide_tekst {
+        margin-bottom: 16px;
     }
 
     /* Underside slut */
@@ -1097,6 +1106,7 @@ td {
         color: #4923f4;
         font-size: 1.3rem;
         letter-spacing: 0.2px;
+        line-height: 25px;
     }
 
     #underside p {
