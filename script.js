@@ -1,4 +1,4 @@
-/* kalder animation når siden loades */
+/* FORSIDE */
 
 window.addEventListener("load", typeWriter);
 
@@ -16,6 +16,41 @@ function fadeIn() {
 }
 
 
+/* MENU */
+
+window.addEventListener("load", sidenVises);
+
+function sidenVises() {
+    console.log("sidenVises");
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+}
+
+function toggleMenu() {
+
+    console.log("toggleMenu");
+    document.querySelector("#menu").classList.toggle("hidden");
+
+    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").textContent = "⸺";
+    } else {
+
+        document.querySelector("#menuknap").textContent = "✕";
+    }
+}
+
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+
+/* SLIDESHOW */
 
 var slideIndex = 1;
 showDivs(slideIndex);

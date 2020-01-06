@@ -23,6 +23,26 @@ header {
 
 /* Grundlæggende indstillinger slut */
 
+/* Menu */
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    line-height: 20px;
+}
+
+
+/* Menu slut */
 
 /* Forside */
 
@@ -72,7 +92,7 @@ header nav {
     display: flex;
     font-family: 'Questrial', sans-serif;
     font-size: 1rem;
-    margin: 5vw 12vw 4vw 12vw;
+    margin-top: 5vw;
     display: inline-block;
 }
 
@@ -80,7 +100,6 @@ nav a {
     color: black;
     font-weight: 200;
     letter-spacing: 0.5px;
-    margin-right: 1vw;
 }
 
 
@@ -150,7 +169,7 @@ footer p {
     letter-spacing: 0.5px;
     transform: rotate(-90deg);
     position: fixed;
-    margin-top: 81vw;
+    margin-top: 80vw;
     font-weight: 200;
 }
 
@@ -359,13 +378,31 @@ td {
 
 @media screen and (min-width: 600px) {
 
+
+    /* Menu start */
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+    /* Menu slut */
+
     /* header og footer */
 
     header nav {
         display: flex;
         font-family: 'Questrial', sans-serif;
         font-size: 1.2rem;
-        margin-top: 4vw;
+        margin-top: 1vw;
         display: inline-block;
     }
 
@@ -559,6 +596,7 @@ td {
 
     #projekter .raekke {
         padding: 0vw;
+        margin-top: 1vw;
     }
 
     .left,
@@ -807,7 +845,7 @@ td {
         display: flex;
         font-family: 'Questrial', sans-serif;
         font-size: 1.2rem;
-        margin-top: 2vw;
+        margin-top: 1vw;
         display: inline-block;
     }
 
@@ -989,7 +1027,9 @@ td {
         margin-right: 10vw;
     }
 
-    #projekter .raekke {}
+    #projekter .raekke {
+        margin-top: 1vw;
+    }
 
     #projekter .kolonne {
         float: left;
