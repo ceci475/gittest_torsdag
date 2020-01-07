@@ -59,7 +59,7 @@ img {
     color: #4923f4;
     font-weight: 600;
     font-size: 1.5rem;
-    margin-top: 70vw;
+    margin-top: 68vw;
     padding: 0vw 10vw 0vw 10vw;
     text-align: center;
 }
@@ -71,7 +71,6 @@ img {
     font-weight: 100;
     font-size: 1rem;
     letter-spacing: 0.2px;
-
     text-align: center;
 }
 
@@ -80,7 +79,12 @@ a {
     color: #4923f4;
 }
 
-a:hover {
+#forside a {
+    text-decoration: none;
+    color: #4923f4;
+}
+
+#forside a:hover {
     text-decoration: none;
     color: black;
 }
@@ -94,6 +98,7 @@ header {
     position: fixed;
     z-index: 3;
     text-align: center;
+
 }
 
 header nav {
@@ -176,11 +181,11 @@ footer p {
 
 #sidebar .portfolio p {
     font-family: 'Questrial', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: black;
     letter-spacing: 0.5px;
     transform: rotate(-90deg);
-    padding: 1vw;
+    padding: 0.5vw;
     position: fixed;
     margin-top: 79vw;
     font-weight: 200;
@@ -197,13 +202,14 @@ footer p {
     font-weight: 600;
     font-size: 3.2rem;
     letter-spacing: 0.8px;
-    margin-bottom: 0;
+    margin-bottom: 5vw;
+    margin-top: 30vw;
 }
 
 #table1 h2 {
     font-family: 'Questrial', sans-serif;
     color: #4923f4;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 0.2px;
 }
 
@@ -214,19 +220,20 @@ td {
 }
 
 #table1 p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Questrial', sans-serif;
     letter-spacing: 0.2px;
     line-height: 28px;
     color: #4923f4;
     width: 48vw;
     font-weight: 500;
+
 }
 
 #table1 {
     border-collapse: separate;
-    margin-left: 5vw;
-    border-spacing: 30px;
+    margin-left: 10vw;
+    border-spacing: 5px;
 }
 
 /* Info slut */
@@ -314,12 +321,12 @@ td {
 #underside h2 {
     font-family: 'Questrial', sans-serif;
     color: #4923f4;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 0.2px;
 }
 
 #underside p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Questrial', sans-serif;
     letter-spacing: 0.2px;
     line-height: 25px;
@@ -571,6 +578,7 @@ td {
         font-size: 3.5rem;
         letter-spacing: 0.8px;
         margin-bottom: 0;
+        margin-top: 10vw;
     }
 
     #table1 h2 {
@@ -1022,6 +1030,7 @@ td {
         font-size: 3.5rem;
         letter-spacing: 0.8px;
         margin-bottom: 0;
+        margin-top: 5vw;
     }
 
     #table1 h2 {
