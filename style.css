@@ -373,7 +373,7 @@ td {
 .col_wide .display-right {
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: -2%;
     transform: translate(-50%, -50%);
     background-color: transparent;
     color: white;
