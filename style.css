@@ -59,7 +59,7 @@ img {
     color: #4923f4;
     font-weight: 600;
     font-size: 1.5rem;
-    margin-top: 68vw;
+    margin-top: 60vw;
     padding: 0vw 10vw 0vw 10vw;
     text-align: center;
 }
@@ -185,7 +185,7 @@ footer p {
     color: black;
     letter-spacing: 0.5px;
     transform: rotate(-90deg);
-    padding: 0.5vw;
+
     position: fixed;
     margin-top: 79vw;
     font-weight: 200;
